@@ -1,0 +1,39 @@
+/* src/components/NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2F4F4F; /* Dark slate gray color for the navbar background */
+    height: 70px; /* Fixed height for the navbar */
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    max-height: 100%; /* Ensure the logo doesn't overflow the navbar */
+  }
+  
+  .logo-image {
+    height: 300px; /* Ensure the logo takes up the full height of the navbar */
+    max-height: 380px; /* Constrain the logo height to the navbar height */
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 300px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white; /* White color for links */
+    font-weight: bold;
+  }
+  
+  .navbar-links a:hover {
+    color: #FFD700; /* Gold color for hover */
+  }
+  
