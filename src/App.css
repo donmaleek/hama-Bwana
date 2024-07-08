@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+.navbar {
+  background-color: rgba(5, 1, 1, 0.74);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  height: 70px; /* Set a fixed height for the navbar */
+  border-radius: 35px; /* Add curved edges to the navbar */
+}
+
+.navbar .logo img {
+  height: 210px; /* Set the height for the logo */
+  width: auto;
+  margin-top: 6px; /* Adjust the negative margin to center the logo vertically */
+}
+
+.navbar nav {
+  flex-grow: 1; /* Allow the nav to grow and take available space */
+  display: flex;
+  justify-content: space-around; /* Equally space the links */
+}
+
+.navbar nav a {
+  color: rgb(91, 248, 248);
+  margin: 0 1rem;
+  text-decoration: none;
+  font-family: Garamond, serif;
+  font-size: 1.2rem; /* Increase the text size */
+  font-weight: bold; /* Set the font weight to bold */
+  font-style: italic; /* Set the font style to italic */
+  text-transform: uppercase; /* Transform text to uppercase */
+  letter-spacing: 0.05rem; /* Add some letter spacing */
+  transition: color 0.3s ease; /* Add a smooth transition for color change */
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+  color: rgb(241, 237, 179);
+}
+
+.container {
+  margin: 2rem;
+}
+
+h1, h2, h3 {
+  color: avocado;
+}
+
+button {
+  background-color: gold;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1.2rem; /* Increase button text size */
+}
+
+button:hover {
+  background-color: darkgoldenrod;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: avocado;
+  font-size: 1.2rem; /* Increase label text size */
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem; /* Increase input and textarea text size */
+}
+
+.map-container {
+  margin-top: 2rem;
+  height: 400px;
+  width: 100%;
+}
+
+.property-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: rgba(5, 1, 1, 0.74);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  /*height: 70px; /* Set a fixed height for the navbar */
+}
+
+footer a {
+  color: rgb(91, 248, 248);
+  margin: 0 1rem;
+  text-decoration: none;
+  font-family: Garamond, serif;
+  font-size: 1.2rem; /* Increase the text size */
+  font-weight: bold; /* Set the font weight to bold */
+  font-style: italic; /* Set the font style to italic */
+  text-transform: uppercase; /* Transform text to uppercase */
+  /*letter-spacing: 0.05rem; /* Add some letter spacing */
+  transition: color 0.3s ease; /* Add a smooth transition for color change */
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: rgb(241, 237, 179);
+}
